@@ -17,7 +17,7 @@ Convert crypto to fiat and vice-versa instantly.
 
 ## DEPLOY IT YOURSELF
 1. Clone the repo
-`git clone https://github.com/MrCheatEugene/crypto-convert`
+`git clone https://github.com/MrCheatEugene/crypto-convert && cd crypto-convert`
 2. Install dependencies
 `npm i` 
 3. Run the API
