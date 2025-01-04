@@ -15,6 +15,15 @@ Convert crypto to fiat and vice-versa instantly.
 
 <a href='https://coinconvert.net' target='_blank'><img src='https://coinconvert.net/assets/img/general.jpg' width="450px"></a>
 
+## DEPLOY IT YOURSELF
+1. Clone the repo
+`git clone https://github.com/MrCheatEugene/crypto-convert`
+2. Install dependencies
+`npm i` 
+3. Run the API
+`node api.js`
+4. Done! API is running by default at port 1981, change it in api.js if you want
+
 ## HTTP API
 Free public API
 
