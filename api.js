@@ -21,9 +21,9 @@
 
         const amount = parseFloat(req.query.amount) || 1; // Default to 1 if not provided
 
-        if (cc[coin1] && cc[coin1][coin2]) {
-            const convertedAmount = cc[coin1][coin2](amount);
-            return res.json({ [coin2]: convertedAmount });
+        if (cc[coin1] && cc[coin1]["USD"]) {
+            const convertedAmount = cc[coin1]["USD"](amount);
+            return res.json({ [coin2]: cc["USD"][coin2](convertedAmount) });
         } else {
             return res.status(404).json({ error: 'Conversion rate not found' });
         }
